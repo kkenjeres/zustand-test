@@ -1,0 +1,59 @@
+:root {
+  --COLOR-GRAY: #333;
+  --COLOR-GRAY-DARK: #222222;
+  --COLOR-GRAY-LIGHT: #cccccc;
+  --COLOR-ONGOING: #98c1d9;
+  --COLOR-DONE: #ee6c4d;
+}
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.column {
+  background: var(--COLOR-GRAY-DARK);
+  min-height: 20rem;
+  color: #fff;
+  width: 33%;
+  max-width: 10rem;
+  margin: 0 0.5rem;
+  border-radius: 4px;
+  padding: 0.25rem;
+}
+
+.task {
+  background: white;
+  border-radius: 4px;
+  min-height: 5rem;
+  color: black;
+  padding: 0.5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.bottomoWrapper {
+  display: flex;
+  justify-content: space-between;
+}
+.status {
+  font-size: small;
+  background: var(--COLOR-GRAY-LIGHT);
+  padding: 0.25rem;
+  border-radius: 4px;
+}
+.PLANNED {
+  background: var(--COLOR-GRAY-LIGHT);
+
+}
+
+.ONGOING {
+  background: var(--COLOR-ONGOING);
+
+}
+.DONE {
+  background: var(--COLOR-GRAY-DONE);
+
+}
